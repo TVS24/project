@@ -1,0 +1,1274 @@
+2024-08-29 21:42:37 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 21:42:37 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 21:42:37 - o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-08-29 21:42:37 - o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-08-29 21:42:37 - o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-08-29 21:42:37 - o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3d607342
+2024-08-29 21:42:37 - o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2499a9d9
+2024-08-29 21:42:37 - o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-08-29 21:42:37 - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 21:42:37 - o.s.web.servlet.DispatcherServlet - GET "/api/id/1", parameters={}
+2024-08-29 21:42:37 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.policy.controller.PolicyController#getPolicyById(Long)
+2024-08-29 21:42:37 - com.policy.logging.LoggingAspect - Entering method: Policy com.policy.controller.PolicyController.getPolicyById(Long) with arguments: [1]
+2024-08-29 21:42:37 - com.policy.logging.LoggingAspect - Entering method: Policy com.policy.service.PolicyService.getPolicyById(Long) with arguments: [1]
+2024-08-29 21:42:37 - com.policy.logging.LoggingAspect - Entering method: Policy com.policy.repository.PolicyRepository.findByPolicyId(Long) with arguments: [1]
+2024-08-29 21:42:37 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-29 21:42:37 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Policy(policyId=1, policyName=Term insurance, catogery=Term, coverage=500000, premium=500)]
+2024-08-29 21:42:37 - o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-29 21:42:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:42:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:42:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:42:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:42:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:42:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:42:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:43:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:43:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:43:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:43:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:43:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:43:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:43:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:43:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:43:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:43:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:43:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:43:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:43:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:43:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:44:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:44:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:44:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:44:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:44:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:44:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:44:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:44:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:44:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:44:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:44:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:44:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:44:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:44:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:45:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:45:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:45:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:45:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:45:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:45:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:45:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:45:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:45:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:45:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:45:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:45:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:45:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:45:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:46:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:46:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:46:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:46:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:46:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:46:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:46:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:46:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:46:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:46:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:46:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:46:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:46:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:46:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:47:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 21:47:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:47:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:47:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:47:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:47:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:47:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:47:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:47:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:47:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:47:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:47:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:47:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:47:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:47:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:48:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:48:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:48:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:48:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:48:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:48:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:48:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:48:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:48:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:48:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:48:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:48:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:48:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:48:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:49:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:49:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:49:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:49:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:49:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:49:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:49:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:49:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:49:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:49:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:49:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:49:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:49:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:49:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:50:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:50:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:50:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:50:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:50:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:50:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:50:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:50:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:50:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:50:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:50:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:50:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:50:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:50:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:51:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:51:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:51:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:51:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:51:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:51:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:51:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:51:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:51:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:51:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:51:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:51:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:51:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:51:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:52:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 21:52:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:52:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:52:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:52:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:52:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:52:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:52:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:52:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:52:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:52:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:52:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:52:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:52:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:52:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:53:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:53:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:53:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:53:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:53:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:53:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:53:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:53:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:53:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:53:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:53:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:53:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:53:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:53:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:54:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:54:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:54:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:54:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:54:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:54:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:54:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:54:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:54:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:54:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:54:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:54:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:54:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:54:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:55:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:55:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:55:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:55:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:55:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:55:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:55:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:55:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:55:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:55:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:55:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:55:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:55:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:55:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:56:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:56:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:56:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:56:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:56:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:56:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:56:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:56:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:56:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:56:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:56:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:56:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:56:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:56:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:57:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 21:57:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:57:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:57:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:57:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:57:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:57:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:57:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:57:59 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:57:59 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:57:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:57:59 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:57:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:57:59 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:57:59 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:58:29 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:58:29 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:58:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:58:29 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:58:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:58:29 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:58:29 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:59:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:59:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:59:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:59:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:59:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:59:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:59:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 21:59:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 21:59:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 21:59:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:59:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 21:59:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:59:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 21:59:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:00:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:00:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:00:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:00:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:00:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:00:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:00:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:00:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:00:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:00:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:00:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:00:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:00:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:00:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:01:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:01:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:01:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:01:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:01:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:01:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:01:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:01:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:01:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:01:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:01:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:01:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:01:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:01:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:02:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:02:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:02:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:02:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:02:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:02:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:02:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:02:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:02:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:02:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:02:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:02:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:02:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:02:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:02:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:03:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:03:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:03:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:03:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:03:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:03:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:03:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:03:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:03:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:03:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:03:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:03:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:03:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:03:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:04:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:04:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:04:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:04:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:04:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:04:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:04:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:04:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:04:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:04:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:04:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:04:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:04:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:04:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:05:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:05:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:05:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:05:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:05:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:05:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:05:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:05:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:05:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:05:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:05:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:05:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:05:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:05:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:06:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:06:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:06:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:06:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:06:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:06:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:06:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:06:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:06:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:06:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:06:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:06:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:06:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:06:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:07:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:07:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:07:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:07:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:07:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:07:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:07:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:07:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:07:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:07:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:07:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:07:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:07:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:07:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:07:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:08:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:08:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:08:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:08:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:08:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:08:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:08:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:08:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:08:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:08:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:08:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:08:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:08:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:08:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:09:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:09:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:09:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:09:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:09:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:09:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:09:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:09:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:09:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:09:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:09:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:09:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:09:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:09:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:10:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:10:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:10:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:10:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:10:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:10:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:10:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:10:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:10:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:10:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:10:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:10:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:10:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:10:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:11:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:11:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:11:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:11:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:11:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:11:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:11:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:11:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:11:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:11:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:11:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:11:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:11:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:11:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:12:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:12:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:12:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:12:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:12:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:12:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:12:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:12:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:12:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:12:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:12:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:12:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:12:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:12:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:12:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:13:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:13:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:13:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:13:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:13:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:13:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:13:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:13:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:13:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:13:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:13:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:13:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:13:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:13:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:14:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:14:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:14:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:14:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:14:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:14:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:14:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:14:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:14:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:14:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:14:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:14:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:14:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:14:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:15:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:15:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:15:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:15:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:15:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:15:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:15:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:15:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:15:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:15:30 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:15:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:15:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:15:30 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:15:30 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:16:00 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:16:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:16:00 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:16:00 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:16:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:16:00 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:16:00 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:16:30 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:16:30 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:16:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:16:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:16:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:16:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:16:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:17:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:17:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:17:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:17:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:17:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:17:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:17:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:17:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:17:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:17:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:17:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:17:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:17:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:17:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:17:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:18:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:18:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:18:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:18:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:18:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:18:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:18:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:18:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:18:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:18:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:18:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:18:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:18:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:18:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:19:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:19:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:19:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:19:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:19:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:19:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:19:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:19:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:19:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:19:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:19:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:19:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:19:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:19:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:20:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:20:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:20:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:20:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:20:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:20:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:20:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:20:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:20:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:20:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:20:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:20:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:20:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:20:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:21:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:21:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:21:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:21:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:21:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:21:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:21:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:21:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:21:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:21:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:21:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:21:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:21:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:21:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:22:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:22:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:22:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:22:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:22:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:22:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:22:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:22:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:22:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:22:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:22:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:22:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:22:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:22:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:22:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:23:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:23:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:23:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:23:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:23:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:23:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:23:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:23:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:23:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:23:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:23:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:23:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:23:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:23:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:24:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:24:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:24:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:24:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:24:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:24:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:24:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:24:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:24:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:24:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:24:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:24:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:24:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:24:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:25:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:25:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:25:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:25:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:25:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:25:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:25:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:25:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:25:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:25:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:25:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:25:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:25:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:25:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:26:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:26:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:26:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:26:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:26:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:26:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:26:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:26:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:26:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:26:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:26:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:26:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:26:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:26:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:27:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:27:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:27:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:27:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:27:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:27:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:27:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:27:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:27:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:27:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:27:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:27:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:27:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:27:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:27:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:28:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:28:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:28:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:28:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:28:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:28:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:28:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:28:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:28:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:28:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:28:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:28:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:28:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:28:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:29:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:29:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:29:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:29:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:29:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:29:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:29:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:29:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:29:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:29:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:29:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:29:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:29:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:29:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:30:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:30:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:30:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:30:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:30:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:30:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:30:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:30:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:30:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:30:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:30:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:30:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:30:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:30:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:31:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:31:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:31:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:31:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:31:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:31:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:31:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:31:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:31:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:31:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:31:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:31:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:31:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:31:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:32:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:32:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:32:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:32:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:32:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:32:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:32:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:32:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:32:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:32:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:32:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:32:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:32:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:32:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:32:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:33:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:33:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:33:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:33:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:33:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:33:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:33:01 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:33:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:33:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:33:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:33:31 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:33:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:33:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:33:31 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:34:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:34:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:34:01 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:34:01 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:34:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:34:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:34:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:34:31 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:34:31 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:34:31 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:34:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:34:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:34:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:34:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:35:01 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:35:01 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:35:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:35:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:35:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:35:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:35:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:35:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:35:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:35:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:35:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:35:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:35:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:35:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:36:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:36:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:36:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:36:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:36:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:36:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:36:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:36:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:36:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:36:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:36:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:36:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:36:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:36:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:37:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:37:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:37:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:37:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:37:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:37:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:37:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:37:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:37:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:37:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:37:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:37:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:37:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:37:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:37:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:38:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:38:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:38:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:38:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:38:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:38:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:38:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:38:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:38:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:38:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:38:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:38:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:38:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:38:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:39:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:39:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:39:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:39:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:39:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:39:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:39:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:39:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:39:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:39:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:39:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:39:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:39:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:39:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:40:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:40:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:40:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:40:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:40:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:40:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:40:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:40:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:40:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:40:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:40:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:40:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:40:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:40:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:41:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:41:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:41:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:41:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:41:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:41:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:41:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:41:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:41:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:41:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:41:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:41:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:41:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:41:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:42:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:42:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:42:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:42:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:42:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:42:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:42:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:42:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:42:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:42:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:42:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:42:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:42:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:42:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:42:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:43:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:43:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:43:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:43:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:43:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:43:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:43:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:43:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:43:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:43:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:43:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:43:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:43:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:43:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:44:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:44:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:44:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:44:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:44:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:44:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:44:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:44:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:44:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:44:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:44:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:44:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:44:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:44:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:45:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:45:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:45:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:45:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:45:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:45:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:45:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:45:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:45:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:45:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:45:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:45:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:45:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:45:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:46:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:46:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:46:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:46:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:46:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:46:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:46:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:46:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:46:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:46:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:46:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:46:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:46:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:46:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:47:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:47:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:47:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:47:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:47:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:47:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:47:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:47:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:47:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:47:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:47:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:47:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:47:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:47:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:47:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:48:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:48:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:48:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:48:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:48:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:48:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:48:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:48:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:48:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:48:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:48:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:48:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:48:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:48:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:49:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:49:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:49:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:49:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:49:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:49:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:49:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:49:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:49:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:49:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:49:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:49:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:49:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:49:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:50:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:50:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:50:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:50:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:50:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:50:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:50:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:50:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:50:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:50:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:50:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:50:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:50:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:50:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:51:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:51:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:51:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:51:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:51:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:51:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:51:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:51:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:51:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:51:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:51:32 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:51:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:51:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:51:32 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:52:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:52:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:52:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:52:02 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:52:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:52:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:52:02 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:52:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:52:32 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:52:32 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:52:32 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:52:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:52:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:52:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:52:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:53:02 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:53:02 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:53:02 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:53:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:53:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:53:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:53:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:53:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:53:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:53:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:53:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:53:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:53:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:53:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:54:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:54:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:54:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:54:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:54:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:54:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:54:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:54:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:54:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:54:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:54:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:54:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:54:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:54:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:55:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:55:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:55:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:55:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:55:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:55:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:55:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:55:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:55:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:55:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:55:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:55:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:55:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:55:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:56:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:56:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:56:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:56:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:56:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:56:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:56:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:56:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:56:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:56:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:56:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:56:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:56:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:56:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:57:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:57:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:57:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:57:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:57:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:57:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:57:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:57:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 22:57:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:57:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:57:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:57:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:57:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:57:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:57:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:58:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:58:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:58:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:58:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:58:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:58:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:58:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:58:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:58:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:58:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:58:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:58:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:58:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:58:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:59:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:59:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:59:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:59:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:59:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:59:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:59:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 22:59:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 22:59:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:59:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:59:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 22:59:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 22:59:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 22:59:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:00:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:00:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:00:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:00:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:00:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:00:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:00:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:00:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:00:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:00:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:00:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:00:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:00:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:00:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:01:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:01:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:01:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:01:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:01:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:01:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:01:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:01:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:01:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:01:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:01:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:01:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:01:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:01:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:02:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:02:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:02:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:02:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:02:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:02:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:02:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:02:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 23:02:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:02:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:02:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:02:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:02:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:02:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:02:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:03:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:03:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:03:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:03:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:03:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:03:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:03:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:03:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:03:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:03:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:03:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:03:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:03:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:03:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:04:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:04:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:04:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:04:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:04:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:04:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:04:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:04:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:04:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:04:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:04:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:04:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:04:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:04:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:05:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:05:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:05:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:05:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:05:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:05:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:05:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:05:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:05:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:05:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:05:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:05:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:05:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:05:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:06:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:06:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:06:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:06:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:06:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:06:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:06:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:06:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:06:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:06:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:06:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:06:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:06:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:06:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:07:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:07:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:07:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:07:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:07:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:07:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:07:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:07:29 - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-08-29 23:07:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:07:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:07:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:07:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:07:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:07:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:07:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:08:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:08:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:08:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:08:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:08:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:08:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:08:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:08:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:08:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:08:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:08:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:08:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:08:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:08:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:09:03 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:09:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:09:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:09:03 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:09:03 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:09:03 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:09:03 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:09:33 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:09:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:09:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:09:33 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:09:33 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:09:33 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:09:33 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:20:11 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:20:11 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:20:11 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:20:11 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:20:11 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:20:11 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:20:11 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:20:37 - com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=10m39s719ms792µs200ns).
+2024-08-29 23:20:41 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:20:41 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:20:41 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:20:41 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:20:41 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:20:41 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:20:41 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-08-29 23:21:11 - o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2024-08-29 23:21:11 - o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/POLICY/TVS:policy:8082?status=UP&lastDirtyTimestamp=1724947949050
+2024-08-29 23:21:11 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:21:11 - o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2024-08-29 23:21:11 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:21:11 - o.s.web.client.RestTemplate - Response 200 OK
+2024-08-29 23:21:11 - o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
